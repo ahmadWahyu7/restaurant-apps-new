@@ -1,0 +1,238 @@
+
+/* tabel version */
+@media screen and (max-width: 820px){
+    header nav ul {
+        width: 70vw;
+        height: 60vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background: #ffcc1d;
+        transition: top 1s ease;
+        display: none;
+    } 
+    
+    header nav .hamburger-icon {
+        display: block;
+    }
+
+    header nav ul .close-icon {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    header nav ul li a {
+        color: #242424;
+    }
+
+    header nav ul li a:hover {
+        background: #242424;
+        color: #ffcc1d;
+        font-weight: bold;  
+    }
+
+    .hero {
+        min-height: 450px;
+    }
+
+    header .hero img {
+        width: 100vw;
+        height: auto;
+    }
+
+    .card {
+        width: 47vw;
+    }
+
+    .card .card-image img {
+        width: 44vw;
+    }
+
+    .content-restaurant h3 a {
+        font-size: 3.2vw;
+    }
+
+    .description {
+        font-size: 1.6vw;
+    }
+
+    .information h3 {
+        font-size: 5vw;
+    }
+
+    .information p {
+        font-size: 3vw;
+        margin-left: 2.5vw;
+
+    }
+
+    .information .desc {
+        font-size: 2.5vw;
+    }
+
+    .menu h3 {
+        font-size: 6vw;
+    }
+
+    .card-menu h4, .reviews h3 {
+        font-size: 4vw;
+    }
+
+    .card-menu p {
+        font-size: 3vw;
+    }
+
+    .comment-review {
+        margin-bottom: 1.5vw;
+    }
+    
+    .reviews .name {
+        font-size: 2.8vw;
+    }
+
+    .reviews .date {
+        font-size: 1.8vw;
+        margin-bottom: 2px;
+    }
+
+    .reviews .comment {
+        font-size: 2.5vw;
+    }
+
+}
+
+/* mobile version */
+@media screen and (max-width: 663px){
+    .hero {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url('/heros/hero-image_2-small.jpg');
+    }
+    header nav ul {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    header nav h1 {
+        font-size: 6vw;
+    }
+
+    .hero {
+        min-height: 380px;
+    }
+
+    .hero-title h2 span {
+        font-size: 9vw;
+        border-width: 2vw;
+    }
+
+    .hero-title p {
+        font-size: 18px;
+    }
+
+    .hero img {
+        width: 100vw;
+        height: auto;
+    }
+
+    main h2 {
+        font-size: 28px;
+    }
+
+    .container .card {
+        width: 85vw;
+        margin-top: 15px;
+    }
+    
+    .card .card-image img {
+        height: auto;
+        width: 75vw;
+        margin: 5px;
+    }
+
+    .content-restaurant h3 a {
+        font-size: 5vw;
+    }
+
+    .rating {
+        font-size: 3vw;
+    }
+
+    .description {
+        font-size: 3.5vw;
+    }
+    
+    button, a {
+        min-width: 44px;
+        min-height: 44px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    main h2 {
+        font-size: 7vw;
+    }
+
+    .container .card {
+        width: 90vw;
+    }
+
+    .content-restaurant h3 a {
+        font-size: 7vw;
+    }
+
+    .information h3 {
+        font-size: 6vw;
+    }
+
+    .information p {
+        font-size: 4vw;
+        margin-left: 3vw;
+
+    }
+
+    .information .desc {
+        font-size: 3.5vw;
+    }
+
+    .menu h3 {
+        font-size: 8vw;
+    }
+
+    .card-menu h4, .reviews h3 {
+        font-size: 5vw;
+    }
+
+    .card-menu p {
+        font-size: 4vw;
+    }
+
+    .comment-review {
+        margin-bottom: 2vw;
+    }
+    
+    .reviews .name {
+        font-size: 3.5vw;
+    }
+
+    .reviews .date {
+        font-size: 2.8vw;
+        margin-bottom: 2px;
+    }
+
+    .reviews .comment {
+        font-size: 3.3vw;
+    }
+
+    form button {
+        font-size: 4vw;
+        padding: 1px;
+    }
+}
+
